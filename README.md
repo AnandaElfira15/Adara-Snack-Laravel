@@ -119,12 +119,11 @@ Jika database atau nama koneksi lokal berbeda, sesuaikan file `.env` milik sendi
 
 ## 6. Akun Demo
 
-Berikut akun demo yang dapat digunakan untuk login ke aplikasi Adara Snack:
+Berikut akun demo yang tersedia pada aplikasi Adara Snack:
 
 - **Admin:** admin@adarasnack.test
 - **Staff:** staff@adarasnack.test
 - **User:** elfira@adarasnack.test
-- **User:** user@adarasnack.test
 
 Setiap akun memiliki hak akses sesuai dengan perannya masing-masing.
 
@@ -227,9 +226,9 @@ Screenshot terminal digunakan sebagai bukti hasil pengujian PHPUnit. Screenshot 
 
 Nama file yang digunakan dalam dokumentasi:
 
-`screenshot/39 Hasil Pengujian PHPUnit.png`
+`screenshot/39 Pengujian Test.png`
 
-![Hasil Pengujian PHPUnit](screenshot/39%20Hasil%20Pengujian%20PHPUnit.png)
+![Hasil Pengujian PHPUnit](screenshot/39%20Pengujian%20Test.png)
 
 Pastikan screenshot tersebut benar-benar disimpan di folder `screenshot/` dengan nama yang sesuai. Jika nama file berbeda, sesuaikan tautan gambar pada README.
 

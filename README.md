@@ -119,9 +119,12 @@ Jika database atau nama koneksi lokal berbeda, sesuaikan file `.env` milik sendi
 
 ## 6. Akun Demo
 
-Gunakan akun demo yang disediakan di `database/seeders/DatabaseSeeder.php`. Periksa email dan password yang ditetapkan di seeder lokal sebelum demo.
+Akun demo yang dapat digunakan untuk login ke aplikasi Adara Snack:
 
-Jangan gunakan kredensial pribadi atau mengunggah password asli ke GitHub.
+- **Admin:** admin@gmail.com
+- **Staff:** staff@gmail.com
+- **User:** user@gmail.com
+Setiap akun memiliki hak akses yang berbeda sesuai dengan perannya masing-masing.
 
 ## 7. Struktur Folder Penting
 

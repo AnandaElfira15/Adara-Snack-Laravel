@@ -119,12 +119,14 @@ Jika database atau nama koneksi lokal berbeda, sesuaikan file `.env` milik sendi
 
 ## 6. Akun Demo
 
-Akun demo yang dapat digunakan untuk login ke aplikasi Adara Snack:
+Berikut akun demo yang dapat digunakan untuk login ke aplikasi Adara Snack:
 
-- **Admin:** admin@gmail.com
-- **Staff:** staff@gmail.com
-- **User:** user@gmail.com
-Setiap akun memiliki hak akses yang berbeda sesuai dengan perannya masing-masing.
+- **Admin:** admin@adarasnack.test
+- **Staff:** staff@adarasnack.test
+- **User:** elfira@adarasnack.test
+- **User:** user@adarasnack.test
+
+Setiap akun memiliki hak akses sesuai dengan perannya masing-masing.
 
 ## 7. Struktur Folder Penting
 

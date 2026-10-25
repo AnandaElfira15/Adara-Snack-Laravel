@@ -478,7 +478,7 @@ Bukti data awal atau dummy untuk menjalankan demo.
 
 Bukti hasil pengujian otomatis yang dijalankan melalui terminal VS Code.
 
-<img src="screenshot/39%20Hasil%20Pengujian%20PHPUnit.png" alt="Hasil Pengujian PHPUnit" width="800">
+<img src="screenshot/39%20Pengujian%20Test.png" alt="Hasil Pengujian PHPUnit" width="800">
 
 ## 11. Git dan Keamanan Repository
 

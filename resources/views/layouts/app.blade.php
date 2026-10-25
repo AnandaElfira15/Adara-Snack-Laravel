@@ -63,15 +63,15 @@
                 <span>Produk</span>
             </a>
 
-            {{-- Kategori: hanya admin --}}
-            @if($isAdmin)
+            {{-- Kategori: menu tampil untuk Admin dan Staff --}}
+            @if($isOperational)
                 <a href="{{ route('categories.index') }}"
                    class="nav-link {{ request()->routeIs('categories.*') ? 'active' : '' }}">
                     <span class="nav-icon">◈</span>
                     <span>Kategori</span>
                 </a>
 
-                {{-- Supplier: hanya admin --}}
+                {{-- Supplier: menu tampil untuk Admin dan Staff --}}
                 <a href="{{ route('suppliers.index') }}"
                    class="nav-link {{ request()->routeIs('suppliers.*') ? 'active' : '' }}">
                     <span class="nav-icon">♧</span>
@@ -79,7 +79,7 @@
                 </a>
             @endif
 
-            {{-- TRANSAKSI: admin dan staff --}}
+            {{-- TRANSAKSI: Admin dan Staff --}}
             @if($isOperational)
 
                 <div class="nav-label">TRANSAKSI</div>
@@ -104,7 +104,7 @@
 
             @endif
 
-            {{-- ADMINISTRASI: hanya admin --}}
+            {{-- ADMINISTRASI: hanya Admin --}}
             @if($isAdmin)
 
                 <div class="nav-label">ADMINISTRASI</div>
